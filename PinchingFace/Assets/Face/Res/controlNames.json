@@ -1,0 +1,362 @@
+{
+     "1": {
+              "controller": "Dual_FaceWide_Narraw",
+              "group_name": "头",
+                      "id": 1,
+                    "name": "脸型宽窄"
+          },
+    "10": {
+              "controller": "Dual_ChinLong_Short",
+              "group_name": "头",
+                      "id": 10,
+                    "name": "下巴长度"
+          },
+    "11": {
+              "controller": "Dual_ChinForward_Backward",
+              "group_name": "头",
+                      "id": 11,
+                    "name": "下巴前后"
+          },
+    "12": {
+              "controller": "Dual_ChinWide_Narraw",
+              "group_name": "头",
+                      "id": 12,
+                    "name": "下巴形状"
+          },
+    "13": {
+              "controller": "Dual_EyeBig_Small",
+              "group_name": "眼",
+                      "id": 13,
+                    "name": "眼睛大小"
+          },
+    "14": {
+              "controller": "Dual_EyeAllWide_Narraw",
+              "group_name": "眼",
+                      "id": 14,
+                    "name": "眼睛间距"
+          },
+    "15": {
+              "controller": "Dual_EyeForward_Backward",
+              "group_name": "眼",
+                      "id": 15,
+                    "name": "眼球凹凸"
+          },
+    "16": {
+              "controller": "Dual_PupilBig_Small",
+              "group_name": "眼",
+                      "id": 16,
+                    "name": "瞳孔大小"
+          },
+    "17": {
+              "controller": "Dual_EyeUp_Down",
+              "group_name": "眼",
+                      "id": 17,
+                    "name": "眼眶高低"
+          },
+    "18": {
+              "controller": "Dual_EyeWide_Narraw",
+              "group_name": "眼",
+                      "id": 18,
+                    "name": "上下眼眶高度"
+          },
+    "19": {
+              "controller": "Dual_EyeMidUpperUp_Down",
+              "group_name": "眼",
+                      "id": 19,
+                    "name": "上眼睑高低"
+          },
+     "2": {
+              "controller": "Dual_FaceLong_Short",
+              "group_name": "头",
+                      "id": 2,
+                    "name": "脸长"
+          },
+    "20": {
+              "controller": "Dual_EyeMidLowerUp_Down",
+              "group_name": "眼",
+                      "id": 20,
+                    "name": "下眼睑高低"
+          },
+    "21": {
+              "controller": "Dual_EyeUpperFront_Outer",
+              "group_name": "眼",
+                      "id": 21,
+                    "name": "上眼睑形状"
+          },
+    "22": {
+              "controller": "Dual_EyeLowerFront_Outer",
+              "group_name": "眼",
+                      "id": 22,
+                    "name": "下眼睑形状"
+          },
+    "23": {
+              "controller": "Dual_EyeInUp_Down",
+              "group_name": "眼",
+                      "id": 23,
+                    "name": "内眼角高低"
+          },
+    "24": {
+              "controller": "Dual_EyeInWide_Narraw",
+              "group_name": "眼",
+                      "id": 24,
+                    "name": "内眼角距离"
+          },
+    "25": {
+              "controller": "Dual_EyeOutWide_Narraw",
+              "group_name": "眼",
+                      "id": 25,
+                    "name": "外眼角距离"
+          },
+    "26": {
+              "controller": "Dual_EyeOutUp_Down",
+              "group_name": "眼",
+                      "id": 26,
+                    "name": "外眼角高低"
+          },
+    "27": {
+              "controller": "Dual_EyeUpperFront_Outer_Down",
+              "group_name": "眼",
+                      "id": 27,
+                    "name": "上眼皮形状"
+          },
+    "28": {
+              "controller": "Dual_EyeUpperFront_Outer_Up",
+              "group_name": "眼",
+                      "id": 28,
+                    "name": "下眼皮形状"
+          },
+    "29": {
+              "controller": "Dual_MouthBig_Small",
+              "group_name": "嘴",
+                      "id": 29,
+                    "name": "嘴巴大小"
+          },
+     "3": {
+              "controller": "Dual_HeadTopBig_Small",
+              "group_name": "头",
+                      "id": 3,
+                    "name": "头部大小"
+          },
+    "30": {
+              "controller": "Dual_MouthUp_Down",
+              "group_name": "嘴",
+                      "id": 30,
+                    "name": "嘴巴位置高低"
+          },
+    "31": {
+              "controller": "Dual_MouthWide_Narraw",
+              "group_name": "嘴",
+                      "id": 31,
+                    "name": "嘴巴长度"
+          },
+    "32": {
+              "controller": "Dual_MouthCornerUp_Down",
+              "group_name": "嘴",
+                      "id": 32,
+                    "name": "嘴角高低"
+          },
+    "33": {
+              "controller": "Dual_MouthFront_Back",
+              "group_name": "嘴",
+                      "id": 33,
+                    "name": "嘴巴凹凸"
+          },
+    "34": {
+              "controller": "Dual_LipInnerFrontUp_Down",
+              "group_name": "嘴",
+                      "id": 34,
+                    "name": "唇珠"
+          },
+    "35": {
+              "controller": "Dual_LipInnerOutUp_Down",
+              "group_name": "嘴",
+                      "id": 35,
+                    "name": "M型嘴"
+          },
+    "36": {
+              "controller": "Dual_LipPhiltrumUp_Down",
+              "group_name": "嘴",
+                      "id": 36,
+                    "name": "上唇线高低"
+          },
+    "37": {
+              "controller": "Dual_LipPhiltrumWide_Narraw",
+              "group_name": "嘴",
+                      "id": 37,
+                    "name": "人中宽度"
+          },
+    "38": {
+              "controller": "Dual_LipUpperFrontUp_Down",
+              "group_name": "嘴",
+                      "id": 38,
+                    "name": "人中长短"
+          },
+    "39": {
+              "controller": "Dual_LipLowerFrontUp_Down",
+              "group_name": "嘴",
+                      "id": 39,
+                    "name": "下唇中厚度"
+          },
+     "4": {
+              "controller": "Dual_HeadTopUp_Down",
+              "group_name": "头",
+                      "id": 4,
+                    "name": "头部高度"
+          },
+    "40": {
+              "controller": "Dual_LipLowerOutUp_Down",
+              "group_name": "嘴",
+                      "id": 40,
+                    "name": "下唇形状"
+          },
+    "41": {
+              "controller": "Dual_LipUpperOutUp_Down",
+              "group_name": "嘴",
+                      "id": 41,
+                    "name": "上唇形状"
+          },
+    "42": {
+              "controller": "Dual_LipUpperThick_Thin",
+              "group_name": "嘴",
+                      "id": 42,
+                    "name": "上嘴唇厚度"
+          },
+    "43": {
+              "controller": "Dual_LipLowerThick_Thin",
+              "group_name": "嘴",
+                      "id": 43,
+                    "name": "下嘴唇厚度"
+          },
+    "44": {
+              "controller": "Dual_NoseAllUp_Down",
+              "group_name": "鼻",
+                      "id": 44,
+                    "name": "鼻子高低"
+          },
+    "45": {
+              "controller": "Dual_NoseAllWide_Narraw",
+              "group_name": "鼻",
+                      "id": 45,
+                    "name": "鼻子宽窄"
+          },
+    "46": {
+              "controller": "Dual_NoseBrideUp_Down",
+              "group_name": "鼻",
+                      "id": 46,
+                    "name": "鼻梁高低"
+          },
+    "47": {
+              "controller": "Dual_NoseBrideWide_Narraw",
+              "group_name": "鼻",
+                      "id": 47,
+                    "name": "鼻梁宽窄"
+          },
+    "48": {
+              "controller": "Dual_NoseBig_Small",
+              "group_name": "鼻",
+                      "id": 48,
+                    "name": "鼻头大小"
+          },
+    "49": {
+              "controller": "Dual_NoseAllForward_Backward",
+              "group_name": "鼻",
+                      "id": 49,
+                    "name": "鼻头高矮"
+          },
+     "5": {
+              "controller": "Dual_CheekBoneWide_Narraw",
+              "group_name": "头",
+                      "id": 5,
+                    "name": "颧骨"
+          },
+    "50": {
+              "controller": "Dual_NoseUp_Down",
+              "group_name": "鼻",
+                      "id": 50,
+                    "name": "鼻尖上下"
+          },
+    "51": {
+              "controller": "Dual_NoseLong_Short",
+              "group_name": "鼻",
+                      "id": 51,
+                    "name": "鼻尖高矮"
+          },
+    "52": {
+              "controller": "Dual_NoseWingShape",
+              "group_name": "鼻",
+                      "id": 52,
+                    "name": "鼻翼大小"
+          },
+    "53": {
+              "controller": "Dual_NoseWingWide_Narraw",
+              "group_name": "鼻",
+                      "id": 53,
+                    "name": "鼻翼宽窄"
+          },
+    "54": {
+              "controller": "Dual_NoseWingThink_Thin",
+              "group_name": "鼻",
+                      "id": 54,
+                    "name": "鼻翼形状"
+          },
+    "55": {
+              "controller": "Dual_NoseWingUp_Down",
+              "group_name": "鼻",
+                      "id": 55,
+                    "name": "鼻翼上下"
+          },
+    "56": {
+              "controller": "Dual_BrowAllUp_Down",
+              "group_name": "眉",
+                      "id": 56,
+                    "name": "眉毛位置"
+          },
+    "57": {
+              "controller": "Dual_BrowAllWide_Narraw",
+              "group_name": "眉",
+                      "id": 57,
+                    "name": "双眉间距"
+          },
+    "58": {
+              "controller": "Dual_BrowTopUp_Down",
+              "group_name": "眉",
+                      "id": 58,
+                    "name": "眉头高低"
+          },
+    "59": {
+              "controller": "Dual_BrowMidUp_Down",
+              "group_name": "眉",
+                      "id": 59,
+                    "name": "眉峰高低"
+          },
+     "6": {
+              "controller": "Dual_CheekWide_Narraw",
+              "group_name": "头",
+                      "id": 6,
+                    "name": "面颊"
+          },
+    "60": {
+              "controller": "Dual_BrowEndUp_Down",
+              "group_name": "眉",
+                      "id": 60,
+                    "name": "眉尾高低"
+          },
+     "7": {
+              "controller": "Dual_JawOuterUp_Down",
+              "group_name": "头",
+                      "id": 7,
+                    "name": "腮骨高度"
+          },
+     "8": {
+              "controller": "Dual_JawOuterWide_Narraw",
+              "group_name": "头",
+                      "id": 8,
+                    "name": "腮骨宽度"
+          },
+     "9": {
+              "controller": "Dual_JawMidUp_Down",
+              "group_name": "头",
+                      "id": 9,
+                    "name": "下巴宽窄"
+          }
+}

@@ -1,0 +1,2090 @@
+{
+  "Dual_BrowTopUp_Down": {
+    "control": {
+      "EyebrowInnerUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyebrowInnerUp": 1
+        }
+      },
+      "EyebrowInnerDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyebrowInnerDown": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_BrowMidUp_Down": {
+    "control": {
+      "EyebrowMiddle": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyebrowMiddleDown": 1
+        }
+      },
+      "EyebrowMiddleUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyebrowMiddleUp": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_BrowEndUp_Down": {
+    "control": {
+      "EyebrowOuterUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyebrowOuterUp": 1
+        }
+      },
+      "EyebrowOuterDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyebrowOuterDown": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_BrowAllUp_Down": {
+    "control": {
+      "EyebrowDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyebrowDown": 1
+        }
+      },
+      "EyebrowUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyebrowUp": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_BrowAllWide_Narraw": {
+    "control": {
+      "allBrow_wide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyebrowInsideWide": 1,
+          "EyebrowOutsideWide": 1
+        }
+      },
+      "allBrow_narraw": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyebrowOutsideNarrow": 3,
+          "EyebrowInside": 0.8
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeBig_Small": {
+    "control": {
+      "eye_small": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Eye_scale_LT": {
+            "scale": {
+              "x": -0.3,
+              "y": -0.3,
+              "z": -0.3
+            }
+          },
+          "Eye_scale_RT": {
+            "scale": {
+              "x": -0.3,
+              "y": -0.3,
+              "z": -0.3
+            }
+          }
+        }
+      },
+      "eye_big": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Eye_scale_LT": {
+            "scale": {
+              "x": 0.07,
+              "y": 0.07,
+              "z": 0.07
+            }
+          },
+          "Eye_scale_RT": {
+            "scale": {
+              "x": 0.07,
+              "y": 0.07,
+              "z": 0.07
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeLowerFront_Outer": {
+    "control": {
+      "EyeFrontLowerDown": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyeFrontLowerDownRight": 1,
+          "EyeFrontLowerDownLeft": 1
+        }
+      },
+      "EyeOuterLowerDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyeOuterLowerDownLeft": 1,
+          "EyeOuterLowerDownRight": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeUpperFront_Outer": {
+    "control": {
+      "EyeFrontUpperUp": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyeFrontUpperUpRight": 1,
+          "EyeFrontUpperUpLeft": 1
+        }
+      },
+      "EyeOuterUpperUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyeOuterUpperUpRight": 1,
+          "EyeOuterUpperUpLeft": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeInUp_Down": {
+    "control": {
+      "eyeInDown": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "EyeLine_in_RT": {
+            "rotate": {
+              "x": -12.4372,
+              "y": 3.59715,
+              "z": 0.256516
+            }
+          },
+          "EyeLine_in_LT": {
+            "rotate": {
+              "x": -12.4372,
+              "y": -3.54129,
+              "z": 0.256638
+            }
+          }
+        }
+      },
+      "eyeInUp": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "EyeLine_in_LT": {
+            "rotate": {
+              "x": 15.7363,
+              "y": 27.128099,
+              "z": -0.713188
+            }
+          },
+          "EyeLine_in_RT": {
+            "rotate": {
+              "x": 15.7519,
+              "y": -27.128099,
+              "z": 0.056992
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeInWide_Narraw": {
+    "control": {
+      "eyeInWide": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "EyeLine_in_LT": {
+            "rotate": {
+              "x": -0.001537,
+              "y": -0.007004,
+              "z": 6.25993
+            }
+          },
+          "EyeLine_in_RT": {
+            "rotate": {
+              "x": -0.255201,
+              "y": -0.006882,
+              "z": -6.25479
+            }
+          }
+        }
+      },
+      "eyeInNarraw": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "EyeLine_in_LT": {
+            "rotate": {
+              "x": 0.330012,
+              "y": 0.045853,
+              "z": -15.8329
+            }
+          },
+          "EyeLine_in_RT": {
+            "rotate": {
+              "x": 0.330011,
+              "y": -0.045869,
+              "z": 15.8329
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeMidLowerUp_Down": {
+    "control": {
+      "EyeMiddleLowerDown": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyeMiddleLowerDownRight": 0.5,
+          "EyeMiddleLowerDownLeft": 0.5
+        }
+      },
+      "EyeMiddleLowerUp": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyeMiddleLowerUpRight": 1,
+          "EyeMiddleLowerUpLeft": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeMidUpperUp_Down": {
+    "control": {
+      "EyeMiddleUpperDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyeMiddleUpperDownLeft": 1,
+          "EyeMiddleUpperDownRight": 1
+        }
+      },
+      "EyeMiddleUpperUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyeMiddleUpperUpLeft": 1,
+          "EyeMiddleUpperUpRight": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeWide_Narraw": {
+    "control": {
+      "EyeNarrow": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyeNarrowRight": 1,
+          "EyeNarrowLeft": 1
+        }
+      },
+      "EyeWide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyeWideRight": 0.7,
+          "EyeWideLeft": 0.7
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeOutUp_Down": {
+    "control": {
+      "eyeOutDown": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "EyeLine_out_RT": {
+            "rotate": {
+              "x": 0.06187,
+              "y": -21.257299,
+              "z": 1.52271
+            }
+          },
+          "EyeLine_out_LT": {
+            "rotate": {
+              "x": 0,
+              "y": 21.256399,
+              "z": -1.52406
+            }
+          }
+        }
+      },
+      "eyeOutUp": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "EyeLine_out_RT": {
+            "rotate": {
+              "x": 0,
+              "y": 20.3748,
+              "z": -0.000114
+            }
+          },
+          "EyeLine_out_LT": {
+            "rotate": {
+              "x": 0,
+              "y": -20.3748,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeOutWide_Narraw": {
+    "control": {
+      "eyeOutNarraw": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "EyeLine_out_RT": {
+            "rotate": {
+              "x": -0.641535,
+              "y": -0.090179,
+              "z": -15.995
+            }
+          },
+          "EyeLine_out_LT": {
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 16.007401
+            }
+          }
+        }
+      },
+      "eyeOutWide": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "EyeLine_out_RT": {
+            "rotate": {
+              "x": 0.585359,
+              "y": -0.074822,
+              "z": 14.5621
+            }
+          },
+          "EyeLine_out_LT": {
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": -14.5737
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeAllWide_Narraw": {
+    "control": {
+      "eye_narraw": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Eye_scale_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": -1.2
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 3
+            }
+          },
+          "Eye_scale_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": 1.2
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": -3
+            }
+          }
+        }
+      },
+      "eye_wide": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Eye_scale_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": 0.3
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": -4
+            }
+          },
+          "Eye_scale_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": -0.3
+            },
+            "rotate": {
+              "x": 0,
+              "y": 0,
+              "z": 4
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_PupilBig_Small": {
+    "control": {
+      "EyeSmall": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyeSmall": 1
+        }
+      },
+      "EyeBig": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyeBig": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeForward_Backward": {
+    "control": {
+      "eye_backward": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Eye_scale_LT": {
+            "trans": {
+              "x": -0.659834,
+              "y": 0.005692,
+              "z": 0
+            }
+          },
+          "Eye_scale_RT": {
+            "trans": {
+              "x": -0.65983,
+              "y": 0.005676,
+              "z": 0
+            }
+          },
+          "glass": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      "eye_forward": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Eye_scale_LT": {
+            "trans": {
+              "x": 0.720415,
+              "y": -0.006134,
+              "z": 0
+            }
+          },
+          "Eye_scale_RT": {
+            "trans": {
+              "x": 0.720419,
+              "y": -0.006134,
+              "z": 0
+            }
+          },
+          "glass": {
+            "trans": {
+              "x": 0.28487,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeUp_Down": {
+    "control": {
+      "eye_down": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Eye_scale_LT": {
+            "trans": {
+              "x": 0,
+              "y": -0.8,
+              "z": 0
+            }
+          },
+          "Eye_scale_RT": {
+            "trans": {
+              "x": 0,
+              "y": -0.8,
+              "z": 0
+            }
+          },
+          "glass": {
+            "trans": {
+              "x": 0,
+              "y": -0.4,
+              "z": 0
+            }
+          }
+        }
+      },
+      "eye_up": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Eye_scale_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0.7,
+              "z": 0
+            }
+          },
+          "Eye_scale_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0.7,
+              "z": 0
+            }
+          },
+          "glass": {
+            "trans": {
+              "x": 0,
+              "y": 0.25,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeUpperFront_Outer_Down": {
+    "control": {
+      "EyeFrontUpperDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyeFrontUpperDownRight": 1,
+          "EyeFrontUpperDownLeft": 1
+        }
+      },
+      "EyeOuterUpperDown": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyeOuterUpperDownRight": 1,
+          "EyeOuterUpperDownLeft": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_EyeUpperFront_Outer_Up": {
+    "control": {
+      "EyeFrontLowerUp": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "EyeFrontLowerUpRight": 1,
+          "EyeFrontLowerUpLeft": 1
+        }
+      },
+      "EyeOuterLowerUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "EyeOuterLowerUpRight": 1,
+          "EyeOuterLowerUpLeft": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_CheekBoneWide_Narraw": {
+    "control": {
+      "CheekboneNarrow": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "CheekboneNarrow": 1
+        }
+      },
+      "CheekboneWide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "CheekboneWide": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_CheekWide_Narraw": {
+    "control": {
+      "CheekNarrow": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "CheekNarrow": 0.6
+        }
+      },
+      "CheekWide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "CheekWide": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_ChinForward_Backward": {
+    "control": {
+      "ChinBackward": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "ChinBackward": 1
+        }
+      },
+      "ChinForward": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "ChinForward": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_ChinLong_Short": {
+    "control": {
+      "ChinLong": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "ChinLong": 1
+        }
+      },
+      "ChinShort": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "ChinShort": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_ChinWide_Narraw": {
+    "control": {
+      "ChinNarrow": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "ChinNarrow": 1
+        }
+      },
+      "ChinWide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "ChinWide": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_FaceLong_Short": {
+    "control": {
+      "FaceLong": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "FaceLong": 1
+        }
+      },
+      "FaceShort": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "FaceShort": 1
+        }
+      },
+      "headTop_down": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "headTop": {
+            "trans": {
+              "x": 0,
+              "y": -1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0,
+              "y": -0.1,
+              "z": 0
+            }
+          }
+        }
+      },
+      "headTop_up": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "headTop": {
+            "trans": {
+              "x": -0.015807,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 0,
+              "y": 0.05,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_FaceWide_Narraw": {
+    "control": {
+      "FaceNarrow": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "FaceNarrow": 0.3
+        },
+        "bone": {
+          "hair_all": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.035
+            }
+          },
+          "glass": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.035
+            }
+          }
+        }
+      },
+      "FaceWide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "FaceWide": 0.5
+        },
+        "bone": {
+          "hair_all": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": 0.07
+            }
+          },
+          "glass": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": 0.07
+            }
+          }
+        }
+      },
+      "headTop_big": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "headTop": {
+            "scale": {
+              "x": 0.05,
+              "y": 0,
+              "z": 0.05
+            }
+          }
+        }
+      },
+      "headTop_small": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "headTop": {
+            "scale": {
+              "x": -0.035,
+              "y": 0,
+              "z": -0.035
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_HeadTopBig_Small": {
+    "control": {
+      "headTop_big": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "headTop": {
+            "scale": {
+              "x": 0.05,
+              "y": 0,
+              "z": 0.05
+            }
+          }
+        }
+      },
+      "headTop_small": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "headTop": {
+            "scale": {
+              "x": -0.1,
+              "y": 0,
+              "z": -0.1
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_HeadTopUp_Down": {
+    "control": {
+      "headTop_down": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "headTop": {
+            "trans": {
+              "x": 0,
+              "y": -0.1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0,
+              "y": -0.1,
+              "z": 0
+            }
+          }
+        }
+      },
+      "headTop_up": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "headTop": {
+            "trans": {
+              "x": -0.015807,
+              "y": 0.6,
+              "z": 0
+            },
+            "scale": {
+              "x": 0,
+              "y": 0.05,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_JawMidUp_Down": {
+    "control": {
+      "JawMiddleDown": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "JawMiddleDown": 1
+        }
+      },
+      "JawMiddleUp": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "JawMiddleUp": 0.8
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_JawOuterUp_Down": {
+    "control": {
+      "JawOuterDown": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "JawOuterDown": 1
+        }
+      },
+      "JawOuterUp": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "JawOuterUp": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_JawOuterWide_Narraw": {
+    "control": {
+      "JawOuterNarraw": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "JawOuterNarraw": 1
+        }
+      },
+      "JawOuterWide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "JawOuterWide": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipInnerFrontUp_Down": {
+    "control": {
+      "LipInnerFrontUp": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipInnerFrontUp": 1
+        }
+      },
+      "LipInnerFrontDown": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipInnerFrontDown": 0.5
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipInnerOutUp_Down": {
+    "control": {
+      "LipInnerOutUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipInnerOutUp": 1
+        }
+      },
+      "LipInnerOutDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipInnerOutDown": 0.8
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipLowerThick_Thin": {
+    "control": {
+      "LipLowerFrontUp": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipLowerThin": 1
+        }
+      },
+      "LipLowerThick": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipLowerThick": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipUpperThick_Thin": {
+    "control": {
+      "LipUpperThick": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipUpperThick": 1
+        }
+      },
+      "LipUpperThin": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipUpperThin": 0.65
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_MouthBig_Small": {
+    "control": {
+      "mouth_big": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Mouth": {
+            "scale": {
+              "x": 0.049274,
+              "y": 0.049273,
+              "z": 0.049273
+            }
+          },
+          "Lip_LT": {
+            "trans": {
+              "x": -0.562253,
+              "y": 0.039444,
+              "z": 1
+            },
+            "scale": {
+              "x": 0.049274,
+              "y": 0.049272,
+              "z": 0.049272
+            }
+          },
+          "Lip_RT": {
+            "trans": {
+              "x": -0.562239,
+              "y": 0.039414,
+              "z": -1
+            },
+            "scale": {
+              "x": 0.049274,
+              "y": 0.049272,
+              "z": 0.049272
+            }
+          }
+        }
+      },
+      "mouth_small": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Mouth": {
+            "scale": {
+              "x": -0.60008,
+              "y": -0.60008,
+              "z": -0.60008
+            }
+          },
+          "Lip_LT": {
+            "trans": {
+              "x": 0.462266,
+              "y": -0.036148,
+              "z": -1.78548
+            },
+            "scale": {
+              "x": -0.60008,
+              "y": -0.60008,
+              "z": -0.60008
+            }
+          },
+          "Lip_RT": {
+            "trans": {
+              "x": 0.462259,
+              "y": -0.036118,
+              "z": 1.78548
+            },
+            "scale": {
+              "x": -0.60008,
+              "y": -0.60008,
+              "z": -0.60008
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_MouthFront_Back": {
+    "control": {
+      "MouthBackward": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "MouthBackward": 1
+        }
+      },
+      "MouthForward": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "MouthForward": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_MouthWide_Narraw": {
+    "control": {
+      "mouthConerNarraw": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Lip_RT": {
+            "trans": {
+              "x": 0.844804,
+              "y": -0.007233,
+              "z": 0.979127
+            }
+          },
+          "Lip_LT": {
+            "trans": {
+              "x": 0.844804,
+              "y": -0.007233,
+              "z": -0.979127
+            }
+          }
+        }
+      },
+      "mouthConerWide": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Lip_RT": {
+            "trans": {
+              "x": -1.104,
+              "y": 0.00943,
+              "z": -0.7
+            }
+          },
+          "Lip_LT": {
+            "trans": {
+              "x": -1.104,
+              "y": 0.00943,
+              "z": 0.7
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_MouthCornerUp_Down": {
+    "control": {
+      "MouthCornerDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "MouthCornerDown": 1
+        }
+      },
+      "MouthCornerUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "MouthCornerUp": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_MouthUp_Down": {
+    "control": {
+      "MouthUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "MouthUp": 0.7
+        }
+      },
+      "MouthDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "MouthDown": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipPhiltrumUp_Down": {
+    "control": {
+      "LipPhiltrumUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipPhiltrumUp": 1
+        }
+      },
+      "LipPhiltrumDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipPhiltrumDown": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipPhiltrumWide_Narraw": {
+    "control": {
+      "LipPhiltrumWide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipPhiltrumWide": 1
+        }
+      },
+      "LipPhiltrumNarraw": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipPhiltrumNarrow": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipUpperFrontUp_Down": {
+    "control": {
+      "LipUpperFrontUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipUpperFrontUp": 0.4
+        }
+      },
+      "LipUpperFrontDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipUpperFrontDown": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipLowerFrontUp_Down": {
+    "control": {
+      "LipLowerFrontUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipLowerFrontUp": 1
+        }
+      },
+      "LipLowerFrontDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipLowerFrontDown": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipLowerOutUp_Down": {
+    "control": {
+      "LipLowerOutUp": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipLowerOutUp": 1
+        }
+      },
+      "LipLowerOutDown": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipLowerOutDown": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_LipUpperOutUp_Down": {
+    "control": {
+      "LipUpperOutUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "LipUpperOutUp": 1
+        }
+      },
+      "LipUpperOutDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "LipUpperOutDown": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseBig_Small": {
+    "control": {
+      "nose_big": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": 0.33839
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": -0.33839
+            }
+          },
+          "Nose": {
+            "scale": {
+              "x": 0.869853,
+              "y": 0.869852,
+              "z": 0.869851
+            }
+          }
+        }
+      },
+      "nose_small": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": -0.212826
+            },
+            "scale": {
+              "x": 0,
+              "y": -0.251311,
+              "z": -0.345976
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": 0.212826
+            },
+            "scale": {
+              "x": 0,
+              "y": -0.25131,
+              "z": -0.34598
+            }
+          },
+          "Nose": {
+            "scale": {
+              "x": -0.3078,
+              "y": -0.3078,
+              "z": -0.873139
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseUp_Down": {
+    "control": {
+      "nose_down": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose": {
+            "trans": {
+              "x": 0,
+              "y": -0.576172,
+              "z": 0
+            },
+            "rotate": {
+              "x": -24.159599,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      "nose_up": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_LT": {
+            "rotate": {
+              "x": 22.9627,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose_RT": {
+            "rotate": {
+              "x": 22.9627,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose": {
+            "trans": {
+              "x": -0.015884,
+              "y": 0.969864,
+              "z": 0
+            },
+            "rotate": {
+              "x": 9.70184,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseAllForward_Backward": {
+    "control": {
+      "noseAll_backward": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": -0.928589,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": -0.928589,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose_brige": {
+            "trans": {
+              "x": -0.215882,
+              "y": 0,
+              "z": 0
+            },
+            "rotate": {
+              "x": -17.0131,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose": {
+            "trans": {
+              "x": -0.928589,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      "noseAll_forward": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 1.07123,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": 1.07123,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose_brige": {
+            "trans": {
+              "x": 0.596008,
+              "y": 0,
+              "z": 0
+            },
+            "rotate": {
+              "x": 17.5625,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose": {
+            "trans": {
+              "x": 1.07123,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseLong_Short": {
+    "control": {
+      "noseAll_long": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_brige": {
+            "trans": {
+              "x": 0.483866,
+              "y": 0.004135,
+              "z": 0
+            },
+            "rotate": {
+              "x": 9.16493,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose": {
+            "trans": {
+              "x": 1.38765,
+              "y": 0.011902,
+              "z": 0
+            }
+          }
+        }
+      },
+      "noseAll_short": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_brige": {
+            "trans": {
+              "x": -0.22113,
+              "y": 0,
+              "z": 0
+            },
+            "rotate": {
+              "x": -5.69257,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose": {
+            "trans": {
+              "x": -0.691406,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseBrideUp_Down": {
+    "control": {
+      "nosebride_down": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_brige": {
+            "trans": {
+              "x": -0.952942,
+              "y": -0.057068,
+              "z": 0
+            },
+            "rotate": {
+              "x": 3.05438,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      "nosebride_up": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_brige": {
+            "trans": {
+              "x": 1.56348,
+              "y": 0,
+              "z": 0
+            },
+            "rotate": {
+              "x": -21.196301,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseBrideWide_Narraw": {
+    "control": {
+      "nosebride_narraw": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_brige": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.886547
+            }
+          }
+        }
+      },
+      "nosebride_wide": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_brige": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": 0.826827
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseWingUp_Down": {
+    "control": {
+      "noseWing_down": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 0,
+              "y": -0.636353,
+              "z": 0
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": 0,
+              "y": -0.636353,
+              "z": 0
+            }
+          }
+        }
+      },
+      "noseWing_up": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0.592377,
+              "z": 0
+            },
+            "rotate": {
+              "x": 27.389799,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0.592377,
+              "z": 0
+            },
+            "rotate": {
+              "x": 27.389799,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseWingWide_Narraw": {
+    "control": {
+      "noseWing_narraw": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": -0.822033
+            },
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.766958
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": 0.822033
+            },
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.76696
+            }
+          }
+        }
+      },
+      "noseWing_wide": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": 0.583824
+            },
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": 0.311138
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": -0.583824
+            },
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": 0.31114
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseAllWide_Narraw": {
+    "control": {
+      "noseAll_narraw": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": -0.740359
+            },
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.967091
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": -0.000123,
+              "y": 0,
+              "z": 0.740667
+            },
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.967089
+            }
+          },
+          "Nose_brige": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.865645
+            }
+          },
+          "Nose": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": -0.47885
+            }
+          }
+        }
+      },
+      "noseAll_wide": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_LT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": 1.22537
+            },
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": 1.18587
+            }
+          },
+          "Nose_RT": {
+            "trans": {
+              "x": 0,
+              "y": 0,
+              "z": -1.22537
+            },
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": 1.18587
+            }
+          },
+          "Nose_brige": {
+            "scale": {
+              "x": -0.357118,
+              "y": -0.357118,
+              "z": 0.555494
+            }
+          },
+          "Nose": {
+            "scale": {
+              "x": 0,
+              "y": 0,
+              "z": 1.54348
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseWingThink_Thin": {
+    "control": {
+      "noseWing_thin": {
+        "min": -1,
+        "max": 0,
+        "bone": {
+          "Nose_LT": {
+            "scale": {
+              "x": 0,
+              "y": -0.46951,
+              "z": 0
+            }
+          },
+          "Nose_RT": {
+            "scale": {
+              "x": 0,
+              "y": -0.46951,
+              "z": 0
+            }
+          }
+        }
+      },
+      "noseWing_think": {
+        "min": 0,
+        "max": 1,
+        "bone": {
+          "Nose_LT": {
+            "scale": {
+              "x": 0,
+              "y": 0.812079,
+              "z": 0
+            }
+          },
+          "Nose_RT": {
+            "scale": {
+              "x": 0,
+              "y": 0.81208,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseAllUp_Down": {
+    "control": {
+      "NoseUp": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "NoseUp": 0.5
+        }
+      },
+      "NoseDown": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "NoseDown": 0.5
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  },
+  "Dual_NoseWingShape": {
+    "control": {
+      "NoseNarrow": {
+        "min": -1,
+        "max": 0,
+        "morph": {
+          "NoseNarrow": 1
+        }
+      },
+      "NoseWide": {
+        "min": 0,
+        "max": 1,
+        "morph": {
+          "NoseWide": 1
+        }
+      }
+    },
+    "min": -1,
+    "max": 1
+  }
+}
