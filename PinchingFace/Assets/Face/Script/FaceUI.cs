@@ -55,5 +55,4 @@ public class FaceUI : MonoBehaviour
             pinchingFace.setControlLevel2(controlName, slider.value);
         });
     }
-
 }
